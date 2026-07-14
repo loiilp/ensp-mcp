@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ensp": {
+      "transport": "stdio",
+      "command": "python",
+      "args": ["-m", "ensp_mcp"],
+      "env": {
+        "ENSP_CONSOLE_HOST": "127.0.0.1",
+        "ENSP_CONSOLE_TIMEOUT": "15"
+      }
+    }
+  }
+}
